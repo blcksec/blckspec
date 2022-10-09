@@ -7,12 +7,12 @@
     "tap": "^16.3.0"
   },
   "name": "playablevideogeneration",
-  "description": "<br> <p align=\"center\">     </em>     <img src=\"./resources/interactive_sequences.gif\"/> <br /> </p> <br>",
+  "description": "playable degradiation",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "test": "tap * |mocha"
+    "test": "tap **/.*"
   },
   "repository": {
     "type": "git",
