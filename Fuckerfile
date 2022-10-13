@@ -33,4 +33,5 @@ echo "conda activate video-generation" >> ~/.bashrc
 #RUN /bin/bash -c "source ~/.bashrc && conda run -n video-generation wandb on"
 
 
-# Run with docker run -it --gpus all --ipc=host -v /path/to/directory/video-generation:/video-generation video-generation:1.0 /bin/bash
+# Run with 
+docker run -it --gpus all --ipc=host -v .:/video-generation video-generation:1.0 /bin/bash
